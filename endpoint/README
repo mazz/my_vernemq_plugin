@@ -1,4 +1,4 @@
-python2.7
+# python2.7
 tar xvzf web.py-0.38.tar.gz
 python setup.py install
 python mqttendpoint.py 1234
