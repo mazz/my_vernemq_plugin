@@ -1,0 +1,7 @@
+python2.7
+tar xvzf web.py-0.38.tar.gz
+python setup.py install
+
+bin/python mqttendpoint.py 1234
+
+mosquitto_pub -i myclientid -t "mytopic" -m "hello world"
