@@ -3,6 +3,7 @@
 ## Install vernemq on a mac:
 
 ```sh
+brew install elixir
 git clone git://github.com/erlio/vernemq.git
 chmod -R u+w /usr/local/Cellar/erlang
 brew install openssl
